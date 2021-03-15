@@ -1,0 +1,32 @@
+.containers{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+.containers > div, 
+.containers .contenido,
+.containers .sidebar,
+.containers .foo {
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.containers .contenido {
+    grid-column: span 2;
+}
+
+.containers .widget-1 {
+    grid-column: 3 / 4;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: 2 / 4;
+}
+  
