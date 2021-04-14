@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  background-image: url(../multimedia/imagenes/9.jpg);
 }
 
 .titulo {
@@ -10,19 +10,10 @@ body {
   letter-spacing: 7px;
 }
 
-.contenedor {
-	max-width: 1000px;
-	width: 90%;
-	margin: auto;
-	display: flex;
-	justify-content: space-between;
+nav {
+  background-color: #e3f2fd;
 }
 
-.logo img {
-	position:absolute;
-	margin-top: 0px;
-	margin-left: 20px;
-	height: 9%;
-	width: 9%;
+.row {
+  padding: 30px;
 }
-
